@@ -47,7 +47,7 @@ public class A3Q4 {
             System.out.println(numbers[i]);
         }
         //SORT HERE
-        System.out.println("AFTER");
+        System.out.println("AFTER:");
         test.countingSort(numbers);
 
     }
