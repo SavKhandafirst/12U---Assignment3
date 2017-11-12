@@ -37,10 +37,10 @@ public class A3Q2 {
      */
     public static void main(String[] args) {
         A3Q2 test = new A3Q2();
-        
+
         // making an array of ints
         int[] numbers = new int[10];
-        
+
         // predesignated values
         numbers[0] = 0;
         numbers[1] = 1;
@@ -55,7 +55,7 @@ public class A3Q2 {
 
         // make an integer for the answer
         int gap = test.smallestMissingNumber(numbers);
-        
+
         // print out answer
         System.out.println(gap);
     }

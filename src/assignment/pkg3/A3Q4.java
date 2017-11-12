@@ -4,7 +4,6 @@ package assignment.pkg3;
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author khans4349
@@ -22,12 +21,12 @@ public class A3Q4 {
         }
 
         // print out the awnsers in tracker array
-        for(int i = 0; i < array.length; i++){
-            for(int p = 0; p < tracker[i]; p++){
-                System.out.println(tracker[p]);
+        for (int i = 0; i < tracker.length; i++) {
+            for (int p = 0; p < tracker[i]; p++) {
+                System.out.println(i);
             }
         }
-        
+
     }
 
     /**
@@ -37,6 +36,7 @@ public class A3Q4 {
         A3Q4 test = new A3Q4();
         // making a random array of ints
         int[] numbers = new int[100];
+
         for (int i = 0; i < numbers.length; i++) {
             // make a random number
             numbers[i] = (int) (Math.random() * 101);
@@ -49,6 +49,6 @@ public class A3Q4 {
         //SORT HERE
         System.out.println("AFTER");
         test.countingSort(numbers);
-        
+
     }
 }
